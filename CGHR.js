@@ -298,7 +298,7 @@ Game.registerMod("cookiegardenhelperreloaded",{
 		
 		
 		this.doc.qSel('#row2 .productButtons').insertAdjacentHTML('beforeend', `
-			<div id="cookieGardenHelperReloadedProductButton" class="productButton">CGHR</div>`);
+			<div id="cookieGardenHelperReloadedProductButton" class="productButton">Cookie Garden Helper</div>`);
 		this.doc.elId('row2').insertAdjacentHTML('beforeend', `
 			<div id="cookieGardenHelperReloaded">
 			  <style>${this.css()}</style>
