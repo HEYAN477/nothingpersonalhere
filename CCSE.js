@@ -101,7 +101,7 @@ CCSE.launch = function(){
 		
 		Game.registerHook('reset', CCSE.reset);
 		
-		l('versionNumber').innerHTML = 'CCSE v. ​ ' + CCSE.version + '<br>Game ' + l('versionNumber').innerHTML;
+		l('versionNumber').innerHTML = 'CCSE ​ v. ' + CCSE.version + '<br>Game ' + l('versionNumber').innerHTML;
 		//var versionNumber = l('versionNumber');
 		//var versionDiv = document.createElement('p');
 		//versionDiv.id = 'CCSEversionNumber';
