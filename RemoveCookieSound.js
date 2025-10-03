@@ -1,5 +1,6 @@
 Game.registerMod("removethatannoyingsound", {
   init:function(){
+    Game.heralds = 100;
     Game.playCookieClickSound = function(){return};
     let MOD = this;
     MOD.OriginalTickerDraw = Game.TickerDraw
