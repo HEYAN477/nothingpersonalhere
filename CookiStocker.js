@@ -238,3 +238,4 @@ Game.registerMod("gincookistocker",{
 else setTimeout(waitForGame,100)
 })
 }, 700); // CookiStocker is really fucking glitchy, I don't know why
+
