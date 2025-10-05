@@ -1,3 +1,16 @@
+//{
+//	"Name": "CCSE",
+//	"ID": "CCSE",
+//	"Author": "klattmose",
+//	"Description": "A modding framework.",
+//	"ModVersion": 2.035,
+//	"GameVersion": 2.053,
+//	"Date": "1/09/2021",
+//	"Dependencies": [],
+//	"Disabled": 0,
+//	"AllowSteamAchievs": 1
+//}
+
 if(CCSE === undefined) var CCSE = {};
 if(!CCSE.postLoadHooks) CCSE.postLoadHooks = [];
 CCSE.name = 'CCSE';
