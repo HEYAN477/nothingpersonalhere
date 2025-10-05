@@ -1,14 +1,15 @@
-// ==UserScript==
-// @name         CUnleash
-// @namespace    http://tampermonkey.net/
-// @version      7.2
-// @description  Unleash your cookie potential.
-// @author       petar105
-// @match        https://orteil.dashnet.org/cookieclicker/
-// @icon         https://www.google.com/s2/favicons?domain=dashnet.org
-// @grant        none
-// ==/UserScript==
-
+//{
+//      "Name": "CookiStocker",
+//      "ID": "gincookistocker",
+//      "Author": "Gingerguy",
+//      "Description": "he bo(ugh)t",
+//	"ModVersion": 1.5,
+//	"GameVersion": 2.053,
+//	"Date": "14/09/2021",
+//	"Dependencies": [],
+//	"Disabled": 1,
+//	"AllowSteamAchievs":1
+//}
 
 // If editing the script, ignore any "Game is not defined" warnings
 // Script is a mix of original code and other addons
@@ -22,8 +23,8 @@ setTimeout(function() {
 
         // Make regular profit reports
         const stockerActivityReport = true
-            // How often to make regular reports in ms (one hour by default)
-            const stockerActivityReportFrequency = 1000 * 60 * 60
+        // How often to make regular reports in ms (one hour by default)
+        const stockerActivityReportFrequency = 1000 * 60 * 60
 
         // Make game notifications fade away on their own
         const stockerFastNotifications = false
