@@ -1,5 +1,17 @@
+//{
+//	"Name": "Cookie Garden Helper - Reloaded",
+//	"ID": "cookiegardenhelperreloaded",
+//	"Author": "chakaa",
+//	"Description": "Automate your garden in Cookie Clicker - reloaded",
+//	"ModVersion": 1.7,
+//	"GameVersion": 2.053,
+//	"Date": "05/09/2021",
+//	"Dependencies": [],
+//	"Disabled": 0,
+//	"AllowSteamAchievs": 1
+//}
 
-//Steam version of https://github.com/yannprada/cookie-garden-helper
+// Steam version of https://github.com/yannprada/cookie-garden-helper
 Game.registerMod("cookiegardenhelperreloaded",{
 	init:function(){
 		this.name = 'Cookie Garden Helper - Reloaded';
