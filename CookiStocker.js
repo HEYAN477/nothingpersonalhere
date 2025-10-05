@@ -1,13 +1,13 @@
 //{
-//      "Name": "CookiStocker",
-//      "ID": "gincookistocker",
-//      "Author": "Gingerguy",
-//      "Description": "he bo(ugh)t",
+//	"Name": "CookiStocker",
+//	"ID": "gincookistocker",
+//	"Author": "Gingerguy",
+//	"Description": "he bo(ugh)t",
 //	"ModVersion": 1.5,
 //	"GameVersion": 2.053,
 //	"Date": "14/09/2021",
 //	"Dependencies": [],
-//	"Disabled": 1,
+//	"Disabled": 0,
 //	"AllowSteamAchievs":1
 //}
 
@@ -238,4 +238,5 @@ Game.registerMod("gincookistocker",{
 else setTimeout(waitForGame,100)
 })
 }, 700); // CookiStocker is really fucking glitchy, I don't know why
+
 
