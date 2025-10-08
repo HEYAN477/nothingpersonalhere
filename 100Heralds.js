@@ -2,10 +2,7 @@ Game.registerMod("100Heralds",
 {
 	init:function()
 	{
-		Game.heralds = 100;
-		Game.lumpRipeAge = Game.lumpMatureAge;
-		Game.lumpOverripeAge = Game.lumpMatureAge;
-		
+		Game.heralds = 100;		
 		let MOD = this;
 		MOD.OriginalTickerDraw = Game.TickerDraw
 		Game.TickerDraw = function()
