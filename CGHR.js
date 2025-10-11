@@ -314,7 +314,7 @@ Game.registerMod("cookiegardenhelperreloaded",{
 		this.doc.elId('row2').insertAdjacentHTML('beforeend', `
 			<div id="cookieGardenHelperReloaded">
 			  <style>${this.css()}</style>
-			  <a href="${this.readmeLink()}" target="new">how it works</a>
+			  <a href="${this.readmeLink()}" target="new">How it works?</a>
 			  <div id="cookieGardenHelperReloadedTitle" class="title">Cookie Garden Helper Reloaded</div>
 			  <div id="cookieGardenHelperReloadedTools">
 				<div class="cookieGardenHelperReloadedBigPanel" id="autoHarvestPanel">
