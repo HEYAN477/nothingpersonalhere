@@ -576,7 +576,7 @@ MoreHeavenlyUpgradesRemastered.launch = function() {
     Game.registerHook('logic', function () {
         if (Game.Has(utilitySpecial[3]) && Game.Objects['Wizard tower']?.minigame?.magic && Game.Objects['Wizard tower']?.minigame?.magicPS) Game.Objects['Wizard tower'].minigame.magic += 0.002 - Game.Objects['Wizard tower'].minigame.magicPS;
         if (Game.Has(sugarLumpSpecial[6])) Game.Unlock('Golden summoner');
-        goldenSummoner.priceLumps = Game.lumps > 1 ? Game.lumps : 1;
+        goldenSummoner.priceLumps = 1;
         if (Game.Has(utilitySpecial[1])) Game.Unlock('NewGamePlus');
         if (Game.Has(utilitySpecial[4]) && Game.T%(Game.fps) === 0 && Math.random() < 1 / 777) Game.gainLumps(1);
         if (Game.T%(Game.fps) === 0 && forcedLuckTimer > 0 && Game.Has(utilitySpecial[1])) forcedLuckTimer--;
