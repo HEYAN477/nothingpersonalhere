@@ -294,17 +294,17 @@ MoreHeavenlyUpgradesRemastered.launch = function() {
 
 
         //Other necessary upgrades
-        goldenSummoner = CCSE.NewUpgrade('Golden summoner', 'Summons an amount of golden cookies equal to your stored sugar lumps', 0, [2, 7]);
+        goldenSummoner = CCSE.NewUpgrade('Golden summoner', 'Summons a golden cookie at the cost of 1 sugar lump', 0, [2, 7]);
         goldenSummoner.priceLumps = 1;
         goldenSummoner.pool = 'toggle';
         goldenSummoner.canBuyFunc = function () { return Game.lumps > 0 };
         goldenSummoner.clickFunction = Game.spendLump(1, 'Call on the Cookie Summoner!', function () {
-            let price = Game.lumps + 1;
-            for (let i = 0; i < price; i++) {
+            //let price = Game.lumps + 1;
+            //for (let i = 0; i < price; i++) {
                 let newShimmer = new Game.shimmer('golden');
                 newShimmer.spawnLead = 1;
-            }
-            Game.lumps = 0;
+            //}
+            //Game.lumps = 0;
         });
 
 
